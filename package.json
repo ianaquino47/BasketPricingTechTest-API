@@ -1,0 +1,22 @@
+{
+  "name": "shopping-basket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js",
+    "test": "mocha -r esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mocha": "^7.0.1",
+    "request": "^2.88.0"
+  }
+}
